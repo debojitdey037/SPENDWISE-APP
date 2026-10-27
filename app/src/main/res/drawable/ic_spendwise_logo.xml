@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.xml-soap.org/wsdl/soap/"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Background rounded square -->
+    <path
+        android:fillColor="#11111B"
+        android:pathData="M110,0 L402,0 C462.75,0 512,49.25 512,110 L512,402 C512,462.75 462.75,512 402,512 L110,512 C49.25,512 0,462.75 0,402 L0,110 C0,49.25 49.25,0 110,0 Z" />
+
+    <!-- Subtle background circle -->
+    <path
+        android:fillColor="#16162D"
+        android:pathData="M256,256m-210,0a210,210 0,1 1,420 0a210,210 0,1 1,-420 0" />
+
+    <!-- Central Inner Circle -->
+    <path
+        android:fillColor="#1E1E3F"
+        android:pathData="M256,256m-125,0a125,125 0,1 1,250 0a125,125 0,1 1,-250 0" />
+
+    <!-- Rupee Symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M295,190 L217,190 L217,204 L295,204 L295,190 Z M295,216 L217,216 L217,230 L280,230 C280,230 280,270 217,270 L217,284 C217,284 295,284 295,230 L295,216 Z M240,284 L295,340 L315,340 L255,280 L240,284 Z" />
+
+    <!-- Decorative ticks -->
+    <path
+        android:fillColor="#3A3A6A"
+        android:pathData="M256,131l2,0l0,12l-2,0z M256,369l2,0l0,12l-2,0z M131,256l0,-2l12,0l0,2z M369,256l0,-2l12,0l0,2z M170,170l9,9l-2,2l-9,-9z M342,342l9,9l-2,2l-9,-9z M170,342l9,-9l2,2l-9,9z M342,170l9,-9l2,2l-9,9z" />
+
+    <!-- The Orange Dot -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M312,216m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+
+    <!-- Top right hexagon -->
+    <path
+        android:strokeColor="#3A3A6A"
+        android:strokeWidth="2"
+        android:pathData="M390,80 L415,95 L415,125 L390,140 L365,125 L365,95 Z" />
+
+</vector>

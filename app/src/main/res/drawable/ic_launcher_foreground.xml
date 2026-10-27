@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Subtle background circle -->
+    <path
+        android:fillColor="#16162D"
+        android:pathData="M256,256m-210,0a210,210 0,1 1,420 0a210,210 0,1 1,-420 0" />
+
+    <!-- Central Inner Circle -->
+    <path
+        android:fillColor="#1E1E3F"
+        android:pathData="M256,256m-125,0a125,125 0,1 1,250 0a125,125 0,1 1,-250 0" />
+
+    <!-- Rupee Symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M295,190 L217,190 L217,204 L295,204 L295,190 Z M295,216 L217,216 L217,230 L280,230 C280,230 280,270 217,270 L217,284 C217,284 295,284 295,230 L295,216 Z M240,284 L295,340 L315,340 L255,280 L240,284 Z" />
+
+    <!-- The Orange Dot -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M312,216m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+
+</vector>
